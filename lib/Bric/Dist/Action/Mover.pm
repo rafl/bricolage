@@ -250,7 +250,7 @@ Bric::Util::Trans::FS and Bric::Util::Trans::FTP as examples.
 In your new mover class, implement a put_res() method and a del_res() method.
 These methods take an array ref of Bric::Dist::Resource objects to be moved and
 a Bric::Dist::ServerType object as arguments. Use the Bric::Dist::Server objects
-in the Brci::Dist::ServerType object to put (or delete, in the case of del_res)
+in the Bric::Dist::ServerType object to put (or delete, in the case of del_res)
 the files represented by each of the resource objects. Again, see Use
 Bric::Util::Trans::FS and Bric::Util::Trans::FTP for examples.
 
